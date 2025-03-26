@@ -4,7 +4,7 @@ JAVA 17 and Spring Boot 3.4.2, using Lonbok to reduce boilerplate code
 and Thymeleaf for the user interface.
 
 # Technologies Used
-Java 17
+<li>Java 17</li>
 Spring Boot 3.4.2
 Lombok
 Thymeleaf(for HTML templates)
