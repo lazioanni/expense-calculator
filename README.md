@@ -18,11 +18,17 @@ and Thymeleaf for the user interface.
 <li>ExpenseController: Handles user input and binds Thymeleaf attributes to Java code.</li>
 <li>ExpenseDTO: Data Transfer Object for passing user input to the Controller.</li>
 <li>ExpenseCalculator Interface: The main calculation interface, implemented in ExpenseCalculatorImpl.</li>
-<li>Utility Classes:</li>
-DiscountUtils: Handles discount calculations.
-ExpenseCalculatorUtils: Extracts distance and computes additional charges.
-<li>Enums:</li>
-<li>FuelType: Maps fuel type to cost per kilometer.</li>
-<li>VehicleType: Maps vehicle type to the maximum number of passengers.</li>
+<li>Utility Classes:
+ <ul>
+      <li>DiscountUtils: Handles discount calculations.</li>
+      <li>ExpenseCalculatorUtils: Extracts distance and computes additional charges.</li>
+    </ul>
+</li>
+<li>Enums:'
+ <ul>
+      <li>FuelType: Maps fuel type to cost per kilometer.</li>
+      <li>VehicleType: Maps vehicle type to the maximum number of passengers.</li>
+    </ul>
+</li>
 <li>Testing: The application includes test cases for all major components.</li>
 
