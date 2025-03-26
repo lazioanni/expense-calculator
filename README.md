@@ -5,11 +5,11 @@ and Thymeleaf for the user interface.
 
 # Technologies Used
 <li>Java 17</li>
-Spring Boot 3.4.2
-Lombok
-Thymeleaf(for HTML templates)
-SLF4J(for logging events)
-JUnit(for testing)
-Bootstrap (for styling)
+<li>Spring Boot 3.4.2 </li>
+<li>Lombok </li>
+<li>Thymeleaf(for HTML templates) </li>
+<li>SLF4J(for logging events) </li>
+<li>JUnit(for testing) </li>
+<li>Bootstrap (for styling) </li>
 
 
