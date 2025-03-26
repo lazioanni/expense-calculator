@@ -22,9 +22,9 @@ and Thymeleaf for the user interface.
  <ul>
       <li>DiscountUtils: Handles discount calculations.</li>
       <li>ExpenseCalculatorUtils: Extracts distance and computes additional charges.</li>
-    </ul>
+ </ul>
 </li>
-<li>Enums:'
+<li>Enums:
  <ul>
       <li>FuelType: Maps fuel type to cost per kilometer.</li>
       <li>VehicleType: Maps vehicle type to the maximum number of passengers.</li>
