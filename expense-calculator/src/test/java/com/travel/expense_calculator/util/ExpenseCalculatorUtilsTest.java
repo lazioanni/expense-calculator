@@ -17,7 +17,7 @@ class ExpenseCalculatorUtilsTest {
         final var fuel = FuelType.DIESEL;
         final var expectedResult = BigDecimal.valueOf(15).setScale(2);
 
-        final var result = getChargeFromFuel(kilometers,fuel);
+        final var result = getChargeFromFuel(kilometers, fuel);
 
         assertThat(result).isNotNull().isEqualTo(expectedResult);
     }
@@ -28,7 +28,7 @@ class ExpenseCalculatorUtilsTest {
         final var fuel = FuelType.PETROL;
         final var expectedResult = BigDecimal.valueOf(20).setScale(2);
 
-        final var result = getChargeFromFuel(kilometers,fuel);
+        final var result = getChargeFromFuel(kilometers, fuel);
 
         assertThat(result).isNotNull().isEqualTo(expectedResult);
     }
@@ -48,7 +48,7 @@ class ExpenseCalculatorUtilsTest {
         final var kilometers = BigDecimal.valueOf(100);
         final var expectedResult = BigDecimal.valueOf(25).setScale(2);
 
-        final var result = getChargeFromExtraPassengers(kilometers,5);
+        final var result = getChargeFromExtraPassengers(kilometers, 5);
 
         assertThat(result).isNotNull().isEqualTo(expectedResult);
     }
@@ -65,7 +65,7 @@ class ExpenseCalculatorUtilsTest {
 
     @Test
     void test_extractDistance_whenTheFormIsNull_thenThrow_IllegalArgumentException() {
-        assertThatThrownBy(() ->  extractDistance(null))
+        assertThatThrownBy(() -> extractDistance(null))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("Input string cannot be null or empty");
     }
@@ -74,7 +74,7 @@ class ExpenseCalculatorUtilsTest {
     void test_extractDistance_whenTheFormIsNotRight_thenThrow_IllegalArgumentException() {
         final var destination = "Munich: KM";
 
-        assertThatThrownBy(() ->  extractDistance(destination))
+        assertThatThrownBy(() -> extractDistance(destination))
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("No valid distance found in the input string");
     }

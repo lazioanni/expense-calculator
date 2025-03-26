@@ -13,10 +13,10 @@ class DiscountUtilsTest {
     @Test
     void test_applyDiscount_whenVehicleIsBus_thenSuccess() {
         final var vehicle = VehicleType.BUS;
-        final var price  = BigDecimal.valueOf(100);
+        final var price = BigDecimal.valueOf(100);
         final var expectedPrice = BigDecimal.valueOf(98).setScale(2);
 
-        final var result = applyDiscount(vehicle,price);
+        final var result = applyDiscount(vehicle, price);
 
         assertThat(result).isNotNull().isEqualTo(expectedPrice);
     }

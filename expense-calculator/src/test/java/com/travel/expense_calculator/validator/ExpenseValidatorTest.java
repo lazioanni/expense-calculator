@@ -9,13 +9,13 @@ class ExpenseValidatorTest {
 
     @Test
     void test_isValidDestinationAndDistance_thenReturnTrue() {
-        final var validDestination =  "Munich: 584 KM";
+        final var validDestination = "Munich: 584 KM";
         assertTrue(isValidDestinationAndDistance(validDestination));
     }
 
     @Test
     void test_isValidDestinationAndDistance_thenReturnFalse() {
-        final var validDestination =  "Munich: KM";
+        final var validDestination = "Munich: KM";
         assertFalse(isValidDestinationAndDistance(validDestination));
     }
 

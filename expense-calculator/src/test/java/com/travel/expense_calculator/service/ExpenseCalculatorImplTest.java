@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import java.math.BigDecimal;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class ExpenseCalculatorImplTest {
 
@@ -19,7 +18,7 @@ class ExpenseCalculatorImplTest {
         final var vehicleType = VehicleType.CAR;
         final var fuelType = FuelType.PETROL;
         final var destination = "Munich: 584 KM";
-        final var numberOfPeopleTravelling  = 5;
+        final var numberOfPeopleTravelling = 5;
         final var isAirConditioningRequired = true;
         final var expectedResult = BigDecimal.valueOf(175.2).setScale(2);
 
@@ -39,7 +38,7 @@ class ExpenseCalculatorImplTest {
         final var vehicleType = VehicleType.BUS;
         final var fuelType = FuelType.PETROL;
         final var destination = "Munich: 584 KM";
-        final var numberOfPeopleTravelling  = 5;
+        final var numberOfPeopleTravelling = 5;
         final var isAirConditioningRequired = true;
         final var expectedResult = BigDecimal.valueOf(171.6960).setScale(4);
 

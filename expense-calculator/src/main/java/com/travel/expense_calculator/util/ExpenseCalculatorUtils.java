@@ -1,6 +1,7 @@
 package com.travel.expense_calculator.util;
 
 import com.travel.expense_calculator.enums.FuelType;
+
 import java.math.BigDecimal;
 
 /**
