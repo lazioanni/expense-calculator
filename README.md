@@ -7,9 +7,12 @@ and Thymeleaf for the user interface.
 <li>Java 17</li>
 <li>Spring Boot 3.4.2 </li>
 <li>Lombok </li>
-<li>Thymeleaf(for HTML templates) </li>
-<li>SLF4J(for logging events) </li>
-<li>JUnit(for testing) </li>
+<li>Thymeleaf (for HTML templates) </li>
+<li>SLF4J (for logging events) </li>
+<li>JUnit (for testing) </li>
 <li>Bootstrap (for styling) </li>
+
+#  Application Structure
+
 
 
